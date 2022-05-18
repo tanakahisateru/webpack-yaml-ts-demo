@@ -1,6 +1,6 @@
-import resource from "./resource"
+import resource, {ResourceItem} from "./resource"
 
-const show = (item:ResourceItem) => {
+const show = (item: ResourceItem) => {
     console.log(item)
 
     const h = document.createElement('h2')
